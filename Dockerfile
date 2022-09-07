@@ -1,4 +1,4 @@
-FROM homebrew/brew:latest
+FROM homebrew/brew:3.5.10
 RUN chmod -R o+rx /home/linuxbrew
 
 ### https://www.rstudio.com/products/rstudio/download-server/debian-ubuntu/
