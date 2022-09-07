@@ -5,6 +5,7 @@ RUN chmod -R o+rx /home/linuxbrew
 USER root
 RUN apt-get update -qq -y && \
     apt-get install apt-utils -y && \
+    apt-get install systemctl -y && \
     apt-get install gdebi-core -y && \
     apt-get install lib32gcc-s1 lib32stdc++6 libc6-i386 libclang-14-dev libclang-common-14-dev \
                     libclang-dev libclang1-14 libgc1 libllvm14 libobjc-11-dev libobjc4 libpq5 \
